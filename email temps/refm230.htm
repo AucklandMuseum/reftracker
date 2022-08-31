@@ -1,0 +1,913 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- 3.4.10.5 version ~ reformatted -->
+
+<head>
+    <title>{parm_organisation} - Response for {question} {question_no}</title>
+    <meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5" />
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link id="emailcsslink" href="http://amtest.altarama.com/include/css/email.custom.css" rel="stylesheet"
+        type="text/css" />
+    <link id="emaillocalcss" href="http://amtest.altarama.com/include/css/email.local.css" rel="stylesheet"
+        type="text/css" />
+
+    <meta name="subject" content="Confirmation of receipt {question} {question_no}" />
+
+    <style type="text/css">
+        @font-face {
+            font-family: 'Gotham Narrow Bold';
+            font-weight: 900;
+            src: url("https://www.aucklandmuseum.com/Client/CSS/AucklandMuseum/fonts/GothamNarrow-Bold.woff") format("woff"),
+                url("https://www.aucklandmuseum.com/Client/CSS/AucklandMuseum/fonts/GothamNarrow-Bold.woff2") format("woff2"),
+                url("https://www.aucklandmuseum.com/Client/CSS/AucklandMuseum/fonts/GothamNarrow-Bold.eot") format("eot"),
+                url("https://www.aucklandmuseum.com/Client/CSS/AucklandMuseum/fonts/GothamNarrow-Bold.ttf") format("ttf");
+        }
+
+        @font-face {
+            font-family: 'Gotham Narrow';
+            font-style: normal;
+            font-weight: 200;
+            src: url("https://www.aucklandmuseum.com/Client/CSS/AucklandMuseum/fonts/GothamNarrow-Light.woff") format("woff"),
+                url("https://www.aucklandmuseum.com/Client/CSS/AucklandMuseum/fonts/GothamNarrow-Light.woff2") format("woff2"),
+                url("https://www.aucklandmuseum.com/Client/CSS/AucklandMuseum/fonts/GothamNarrow-Light.eot") format("eot"),
+                url("https://www.aucklandmuseum.com/Client/CSS/AucklandMuseum/fonts/GothamNarrow-Light.ttf") format("ttf");
+        }
+
+        @font-face {
+            font-family: 'Gotham Narrow';
+            font-style: normal;
+            font-weight: 400;
+            src: url("https://www.aucklandmuseum.com/Client/CSS/AucklandMuseum/fonts/GothamNarrow-Book.woff") format("woff"),
+                url("https://www.aucklandmuseum.com/Client/CSS/AucklandMuseum/fonts/GothamNarrow-Book.woff2") format("woff2"),
+                url("https://www.aucklandmuseum.com/Client/CSS/AucklandMuseum/fonts/GothamNarrow-Book.eot") format("eot"),
+                url("https://www.aucklandmuseum.com/Client/CSS/AucklandMuseum/fonts/GothamNarrow-Book.ttf") format("ttf");
+        }
+
+        @font-face {
+            font-family: 'Gotham Narrow';
+            font-style: normal;
+            font-weight: 600;
+            src: url("https://www.aucklandmuseum.com/Client/CSS/AucklandMuseum/fonts/GothamNarrow-Medium.woff") format("woff"),
+                url("https://www.aucklandmuseum.com/Client/CSS/AucklandMuseum/fonts/GothamNarrow-Medium.woff2") format("woff2"),
+                url("https://www.aucklandmuseum.com/Client/CSS/AucklandMuseum/fonts/GothamNarrow-Medium.eot") format("eot"),
+                url("https://www.aucklandmuseum.com/Client/CSS/AucklandMuseum/fonts/GothamNarrow-Medium.ttf") format("ttf");
+        }
+    </style>
+
+    <style type="text/css">
+        #header,
+        #main {
+            max-width: 800px;
+        }
+
+        .rtemlmain {
+            font-family: 'Gotham Narrow', sans-serif;
+            font-weight: 400;
+            margin: auto;
+            offset: none;
+            background-color: #ffffff;
+        }
+
+        .rtemlmain td {
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+
+        .rtemlbody {
+            background-color: #aeaeae;
+            padding-right: 110px;
+            padding-left: 110px;
+            padding-top: 90px;
+            padding-bottom: 90px;
+        }
+
+        @media only screen and (max-width: 500px) {
+            .rtemlbody {
+                padding: 0px;
+            }
+        }
+
+        tbody#main {
+            background-color: #ffffff !important;
+            background: rgb(255, 255, 255) !important;
+            offset: none;
+        }
+
+        .rtemlaction {
+            background-color: #00a5b5;
+        }
+
+        .rtemloptionsarea {
+            float: left;
+            text-align: left;
+        }
+
+        .rtemlreftlink A {
+            color: #00a5b5;
+        }
+
+        .rtemlaction {
+            color: #ffffff;
+            line-height: 1.57;
+        }
+
+        .rtemlvaluetext {
+            color: #ffffff;
+        }
+
+        .rtemllabeltext {
+            line-height: 1.39;
+        }
+
+        .rtemllabeltext#confirm {
+            font-size: 18px;
+            font-family: 'Gotham Narrow', sans-serif;
+            line-height: 1.39;
+        }
+
+        .rtemlaction .rtemllabeltext {
+            color: #ffffff;
+        }
+
+        .rtemlaction a,
+        .rtemlaction a:hover {
+            color: #ffffff;
+        }
+
+        .rtemldisclaimer {
+            font-size: 10px;
+            margin-bottom: 31px;
+            border-top: 1px solid #979797;
+            padding-top: 20px;
+            font-weight: 200;
+        }
+
+        td#info-block {
+            padding-left: 30px !important;
+            padding-right: 30px !important;
+            padding-top: 20px !important;
+            padding-bottom: 20px !important;
+        }
+
+        td#logo {
+            padding: 30px 0px 0px 0px;
+        }
+    </style>
+
+</head>
+
+<body class="rtemlbody">
+
+
+    <table align="center" class="rtemlmain">
+        <tbody>
+            <!--$rvb$-->
+            <tr>
+                <td id="logo">
+                    <img
+                        src="https://www.aucklandmuseum.com/getmedia/84f3f713-38a4-410b-b5d4-1a0293b1f4de/AM-Banner-reftracker" />
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <!--$rvb$-->
+                    <p><span class="rtemllabeltext" id='confirm'>{label_question_client_no}: <span
+                                class="rtemlquestionno">{question_client_no}</span></span></p>
+                    <!--$rve$-->
+                    <p class="rtemllabeltext" id='confirm'>We have received an update from you and have advised the
+                        staff member working on your {question} of the change.</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="rtemlaction">
+                        <tr>
+                            <td id='info-block'>
+
+                                <p class="rtemlblocklabel"><span class="rtemllabeltext">The changes you submitted
+                                        were:</span></p>
+                                <!--$rvb$-->
+                                <p class="rtemlblockfield">{note_text}</p>
+                                <!--$rve$-->
+                                <!--$rvb$-->
+                                <p><span class="rtemllabeltext">{label_question_subject}:&nbsp;</span>
+                                    {upd_question_subject}</p>
+                                <!--$rve$-->
+                                <!--$rvb$-->
+                                <p class="rtemlblocklabel"><span
+                                        class="rtemllabeltext">{label_question_text}:&nbsp;</span></p>
+                                <p class="rtemlblockfield">{upd_question_text}</p>
+                                <!--$rve$-->
+                            </td>
+                        </tr>
+
+                    </table>
+                    <br />
+                    <br />
+
+                    <p>
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_useful_date}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_useful_date}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_looked}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_looked}</span> <br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_reason}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_reason}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_rlevel}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_rlevel}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_usefor}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_usefor}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_age}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_age}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_format}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_format}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_currency}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_currency}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_priority}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_priority}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_rating}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_rating}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_client_note}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_client_note}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_transcript_no}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_transcript_no}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl01}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl01}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl02}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl02}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl03}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl03}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl04}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl04}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl05}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl05}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl06}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl06}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl07}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl07}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl08}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl08}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl09}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl09}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl10}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl10}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl11}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl11}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl12}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl12}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl13}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl13}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl14}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl14}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl15}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl15}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl16}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl16}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl17}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl17}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl18}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl18}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl19}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl19}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl20}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl20}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl21}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl21}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl22}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl22}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl23}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl23}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl24}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl24}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl25}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl25}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl26}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl26}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl27}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl27}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl28}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl28}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl29}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl29}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl30}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl30}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl31}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl31}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl32}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl32}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl33}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl33}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl34}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl34}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl35}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl35}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl36}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl36}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl37}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl37}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl38}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl38}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl39}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl39}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl40}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl40}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl41}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl41}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl42}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl42}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl43}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl43}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl44}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl44}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl45}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl45}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl46}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl46}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl47}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl47}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl48}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl48}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl49}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl49}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_cl50}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_cl50}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_ta01}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_ta01}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_ta02}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_ta02}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_ta03}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_ta03}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_ta04}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_ta04}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_ta05}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_ta05}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_ta06}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_ta06}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_ta07}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_ta07}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_ta08}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_ta08}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_ta09}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_ta09}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_ta10}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_ta10}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_ta11}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_ta11}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_ta12}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_ta12}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_ta13}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_ta13}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_ta14}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_ta14}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_ta15}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_ta15}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_ta16}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_ta16}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_ta17}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_ta17}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_ta18}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_ta18}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_ta19}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_ta19}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_ta20}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_ta20}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_tb01}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_tb01}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_tb02}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_tb02}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_tb03}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_tb03}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_tb04}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_tb04}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_tb05}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_tb05}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_tb06}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_tb06}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_tb07}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_tb07}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_tb08}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_tb08}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_tb09}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_tb09}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_tb10}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_tb10}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_tb11}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_tb11}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_tb12}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_tb12}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_tb13}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_tb13}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_tb14}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_tb14}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_tb15}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_tb15}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_tb16}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_tb16}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_tb17}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_tb17}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_tb18}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_tb18}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_tb19}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_tb19}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_tb20}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_tb20}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_dt01}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_dt01}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_dt02}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_dt02}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_dt03}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_dt03}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_dt04}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_dt04}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_dt05}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_dt05}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_dt06}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_dt06}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_dt07}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_dt07}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_dt08}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_dt08}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_dt09}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_dt09}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_udf_dt10}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_udf_dt10}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--><span class="rtemllabeltext">{label_question_import_note}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_question_import_note}</span><br />
+                        <!--$rve$-->
+
+                    </p>
+                    <p>
+                        <!--$rvb$-->
+                        <span class="rtemllabeltext">Bibliographic information is as follows:</span><br />
+                        <span class="rtemllabeltext">{label_bib_title}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_title}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_author}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_author}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_biblevel_id}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_biblevel_id}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_bibtype_id}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_bibtype_id}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_pubname}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_pubname}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_pubplace}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_pubplace}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_pubdate}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_pubdate}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_edition}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_edition}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_number}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_number}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_callno}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_callno}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_article_title}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_article_title}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_volume}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_volume}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_issue}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_issue}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_chapter}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_chapter}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_pages}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_pages}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_price_estimate}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_price_estimate}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_price_actual}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_price_actual}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_copies_number}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_copies_number}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_copies_request}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_copies_request}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_copies_actual}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_copies_actual}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_copyright}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_copyright}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_udf_cl01}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_udf_cl01}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_udf_cl02}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_udf_cl02}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_udf_cl03}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_udf_cl03}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_udf_cl04}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_udf_cl04}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_udf_cl05}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_udf_cl05}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_udf_tb01}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_udf_tb01}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_udf_tb02}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_udf_tb02}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_udf_tb03}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_udf_tb03}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_udf_tb04}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_udf_tb04}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_udf_tb05}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_udf_tb05}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_udf_ta01}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_udf_ta01}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_udf_ta02}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_udf_ta02}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_udf_ta03}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_udf_ta03}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_udf_ta04}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_udf_ta04}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_udf_ta05}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_udf_ta05}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_bib_comment}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_bib_comment}</span><br />
+                        <!--$rve$-->
+
+                    </p>
+                    <p>
+                        <!--$rvb$-->
+                        <span class="rtemllabeltext">ILL/Document delivery information is as follows:</span><br />
+                        <span class="rtemllabeltext">{label_ill_priority_id}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_ill_priority_id}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_ill_reference_source}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_ill_reference_source}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_ill_reference_no}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_ill_reference_no}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_ill_request_no}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_ill_request_no}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_ill_retention}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_ill_retention}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_ill_exact_edition}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_ill_exact_edition}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_ill_overseas}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_ill_overseas}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_ill_requirements}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_ill_requirements}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_ill_comment}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_ill_comment}</span><br />
+                        <!--$rve$-->
+
+                    </p>
+
+                    <p>
+                        <!--$rvb$-->
+                        <span class="rtemllabeltext"> Client contact information is as follows:</span>
+                        <br />
+                        <span class="rtemllabeltext">{label_client_response}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_response}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_name}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_name}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_name2}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_name2}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_honorific_id}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_honorific_id}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_email}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_email}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_email_cc2}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_email_cc2}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_email_cc}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_email_cc}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_email_cc3}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_email_cc3}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_email_bcc2}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_email_bcc2}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_email_bcc}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_email_bcc}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_email_bcc3}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_email_bcc3}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_phone}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_phone}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_mobile}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_mobile}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_skype_chat_link}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_skype_chat_link}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_fax}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_fax}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_address1}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_address1}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_address2}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_address2}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_city}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_city}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_region}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_region}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_state_id}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_state_id}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_zipcode}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_zipcode}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_country_id}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_country_id}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_location}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_location}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_department}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_department}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_member}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_member}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_patron_no}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_patron_no}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_udf_cl01}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_udf_cl01}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_udf_cl02}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_udf_cl02}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_udf_cl03}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_udf_cl03}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_udf_cl04}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_udf_cl04}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_udf_cl05}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_udf_cl05}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_udf_cl06}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_udf_cl06}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_udf_cl07}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_udf_cl07}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_udf_cl08}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_udf_cl08}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_udf_cl09}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_udf_cl09}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_udf_cl10}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_udf_cl10}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_udf_tb01}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_udf_tb01}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_udf_tb02}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_udf_tb02}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_udf_tb03}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_udf_tb03}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_udf_tb04}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_udf_tb04}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_udf_tb05}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_udf_tb05}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_udf_ta01}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_udf_ta01}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_udf_ta02}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_udf_ta02}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_udf_ta03}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_udf_ta03}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_udf_ta04}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_udf_ta04}</span><br />
+                        <!--$rve$-->
+                        <!--$rvb$--> <span class="rtemllabeltext">{label_client_udf_ta05}:&nbsp;</span><span
+                            class="rtemlvaluetext">{upd_client_udf_ta05}</span><br />
+                        <!--$rve$-->
+                    </p>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="rtemloptionsarea">
+                        <!--$rvb$-->
+                        <span class="rtemlreftlink">
+                            <a href="{link_Check}" target="client">
+                                Click here for options to manage this {question}
+                            </a>
+                            <br />
+                            (cancel it, change it, see its status, and more)
+                        </span>
+                        <!--$rve$-->
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table class="rtemlaction">
+                        <tr>
+                            <td id='info-block'>
+                                <p> <span class="rtemllabeltext">This change is in relation to your original
+                                        {question}:&nbsp;</span><span class="rtemlreftlink"><a href="{link_Check}"
+                                            target="client">{question_no}</a></span></p>
+                                <!--$rvb$-->
+                                <p><span class="rtemllabeltext">{label_question_subject}:&nbsp;</span><span
+                                        class="rtemlvaluetext">{question_subject}</span></p>
+                                <!--$rve$-->
+                                <!--$rvb$-->
+                                <p class="rtemlblocklabel"><span
+                                        class="rtemllabeltext">{label_question_text}:&nbsp;</span></p>
+                                <p class="rtemlblockfield">{question_text}</p>
+                                <!--$rve$-->
+                                <!--$rvb$-->
+                                <p><span class="rtemllabeltext">Original
+                                        {label_question_item_summary}:&nbsp;</span><span
+                                        class="rtemlvaluetext">{itemsummary}</span></p>
+                                <!--$rve$-->
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>{emailsignoff}</p>
+                </td>
+            </tr>
+            <tr>
+                <!--$rvb$-->
+                <td>
+                    <div class="rtemldisclaimer">
+
+                        {misc_disclaimer}
+
+                    </div>
+                </td>
+                <!--$rve$-->
+            </tr>
+            <!--$rvb$-->
+            <!--$rve$-->
+        </tbody>
+    </table>
+
+</body>
+
+</html>
