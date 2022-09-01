@@ -1,0 +1,142 @@
+﻿
+
+.rmItem img{
+
+    height:14px;
+    width:14px;
+
+}
+
+/* spacing in menu bar */
+.RadMenu .rmHorizontal .rmText{
+    padding:0 5px 1px 0 !important;
+
+}
+
+#pgobmbar{
+
+   
+}
+
+/* Adjust the width of the left and right hand side components of the menubar */
+   .clientProvince .lyodiv0 {
+                width: 20% !important;
+            }
+
+               .clientProvince .lyodiv1 {
+                width: 80% !important;
+            }
+
+  .reToolCell {
+    display: none;
+  
+}
+
+  .reCentre_top{
+
+      height:0px!important;
+  }
+  .reToolZone {
+  display: none;
+  }
+  .reContentCell {
+
+  padding: 0px !important;
+  margin: 0px !important;
+  width: 100%;
+  border-spacing: 0px;
+  border-style: none !important;
+  }
+
+  .reLayoutWrapper {
+
+  padding: 0px !important;
+  margin: 0px !important;
+  width: 100%;
+  border-spacing: 0px;
+  background-color: #FFFFFF  !important;
+
+  }
+
+  .reContentArea {
+  padding: 0px !important;
+  margin: 0px !important;
+  width: 100%;
+  border-spacing: 0px;
+  background-color: #FFFFFF  !important;
+  }
+
+
+  /* welcome message */
+
+
+*.welcome
+{
+	margin-top: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+    min-height:25px;
+	font-family: Arial;
+	text-align: center;
+    padding-top:4px;
+    border-width:0px;
+    border-radius: 4px !important;
+
+}
+
+
+.welcome .lbtxt{
+	font-size: 1.3em !important;
+    font-weight:bold;
+}
+
+/* Whiteboard */
+
+
+
+
+
+*.introTable{
+    margin-left:9px;
+    margin-right:9px;
+    margin-bottom:10px;
+
+}
+
+#introCell div{
+
+    text-align:center !important;
+    
+}
+
+
+.rcDiv {
+    background-color: inherit;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.rcRefreshImage {
+    font-weight: bold;
+    font-size: 0.97em;
+    display: block;
+    margin-left: 20px;
+    background-image: url(../../include/images/main/newcaptcha.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    height: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 120px;
+}
+
+.rcCaptchaAudioLink {
+    font-weight: bold;
+    font-size: 1em;
+    margin-left: 20px;
+    background-image: url(../../include/images/main/speaker.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    width: 120px;
+    height: 20px;
+}

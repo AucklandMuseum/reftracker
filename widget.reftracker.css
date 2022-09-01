@@ -1,0 +1,233 @@
+﻿.rtqqwg_cls_form {
+    background-color: transparent !important;
+    cursor: default;
+    width: 390px;
+    color: #708090; /*reftcss|qqwidget|Form text colour|P9u79np98nhfrx49*/
+    /*border: 1pt solid blue;
+    border-radius:10px;*/
+}
+
+    .rtqqwg_cls_form.rtqqwg_cls_popup {
+        position: fixed;
+        right: 60px;
+        bottom: 100px;
+        z-index: 50;
+    }
+
+    .rtqqwg_cls_form.rtqqwg_cls_embedded {
+        position: relative !important;
+    }
+
+.rtqqwg_cls_header {
+    overflow: hidden;
+    color: #ffffff; /*reftcss|qqwidget|Header text colour|P9u7bd9876g5PIC9*/
+    font-family: Verdana,Arial;
+    font-size: 15px;
+    clear: left;
+    background-color: rgba(159,166,23,1); /*reftcss|qqwidget|Header background colour|nh75d39876g5PIC9*/
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid;
+    border-color: rgba(159,166,23,1); /*reftcss|qqwidget|Header border colour|nh75d398pnc53aC9*/
+    border-bottom: 0pt !important;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.rtqqwg_cls_htext {
+    display: block;
+    float: left;
+    width: 80%;
+    color: inherit;
+    background-color: inherit;
+    text-indent: 15px;
+}
+    .rtqqwg_cls_htext span {
+        color: inherit;
+        background-color: inherit;
+        font: inherit !important;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+   
+.rtqqwg_cls_hclose {
+    display: block;
+    float: left;
+    width: 20%;
+    background-color: inherit;
+    color: inherit;
+    text-align: right;
+}
+
+    .rtqqwg_cls_hclose input {
+        background-color: inherit;
+        border: solid 1pt #E0E0E0; /*reftcss|qqwidget|Close icon border colour|P9u79nbvc5g5PIC9*/
+        margin-right: 12px;
+        color: inherit;
+        font-weight: bold;
+        height: 30px;
+        border-radius: 5px;
+    }
+
+        .rtqqwg_cls_hclose input:hover {
+            border-color: #ffffff; /*reftcss|qqwidget|Close icon border colour hover|P9u79npoi765PIC9*/
+        }
+
+#rtqqwg_zone_body {
+    padding-top: 10px;
+    background-color: #ffffff; /*reftcss|qqwidget|Form body background colour|P9po84cxq765PIC9*/
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-family: Verdana,Arial;
+    font-size: 14px;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-color: #e0e0e0; /*reftcss|qqwidget|Form body border colour|P9po89m6v4f5PIC9*/
+}
+
+#rtqqwg_zone_entry, #rtqqwg_zone_result {
+    padding-bottom: 20px;
+    background-color: inherit;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.rtqqwg_cls_text {
+    margin-bottom: 10px;
+}
+
+    .rtqqwg_cls_text p, .rtqqwg_cls_text span {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: inherit !important;
+        color: inherit !important;
+    }
+
+#rtqqwg_zone_result {
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.rtqqwg_cls_embedded #rtqqwg_zone_result {
+    border-bottom: 1px solid grey;
+}
+
+#rtqqwg_zone_result_success {
+    margin-top: 20px;
+    padding-bottom: 20px !important;
+}
+
+#rtqqwg_msg_result_success {
+    font-weight: bold !important;
+}
+
+
+
+#rtqqwg_msg_result_failed, #rtqqwg_msg_val, .rtqqwg_cls_err {
+    color: rgba(193,28,20,1) !important; /*reftcss|qqwidget|Error/Validation message text colour|P9u09nmz3wdtrx49*/
+}
+
+#rtqqwg_msg_val {
+    margin-top: 5px;
+    margin-bottom: 3px;
+    font-size: 11px !important;
+}
+
+.rtqqwg_cls_err {
+    background-color: rgba(193,28,20,0.1) !important; /*reftcss|qqwidget|Field error highlight background colour|P987vr4zpwdtrx49*/
+    border: 1px dashed !important;
+    border-color: rgba(193,28,20,1) !important; /*reftcss|qqwidget|Field error highlight border colour|P9pplew3cawdtrx49*/
+}
+
+.rtqqwg_cls_entry input, .rtqqwg_cls_entry textarea {
+    width: 98%;
+    border-radius: 5px;
+    border: 1px solid #d4d4d4; /*reftcss|qqwidget|Form field border colour|P9u7976bcgdtrx49*/
+    margin-bottom: 12px;
+    padding-left: 8px;
+    color: inherit;
+    font-family: inherit !important;
+}
+
+.rtqqwg_cls_entry textarea {
+}
+
+.rtqqwg_cls_entry input {
+    height: 40px;
+}
+
+.rtqqwg_cls_button {
+    text-align: center;
+}
+.rtqqwg_cls_author {
+    text-align: center;
+    font-size:8px;
+}
+    .rtqqwg_cls_button input {
+        width: 150px;
+    }
+
+.rtqqwg_cls_btnenb {
+    border-radius: 5px;
+    background-color: rgba(159,166,23,0.8); /*reftcss|qqwidget|Send button background colour|P7bcm0qzcgdtrx49*/
+    color: #ffffff; /*reftcss|qqwidget|Send button text colour|Pkijuhy7cgdtrx49*/
+    border: 1px solid rgba(159,166,23,1); /*reftcss|qqwidget|Send button border colour|ong6rx3bcgdtrx49*/
+    height: 30px;
+}
+
+    .rtqqwg_cls_btnenb :hover {
+        background-color: rgba(159,166,23,1); /*reftcss|qqwidget|Send button background colour hover|P9u7976blnf43cx9*/
+    }
+
+.rtqqwg_cls_btndsb {
+    border-radius: 5px;
+    background-color: #d4d4d4; /*reftcss|qqwidget|Send button (disabled) background colour|P7b7bcfet5dtrx49*/
+    color: #ffffff; /*reftcss|qqwidget|Send button (disabled) text colour|ongnb8uhvde3rx49*/
+    border: 1px solid #d4d4d4; /*reftcss|qqwidget|Send button (disabled) border colour|ongnbhgt65dtrx49*/
+    height: 30px;
+}
+
+#rtqqwg_img_wait {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* This is the div that contains the launch button */
+
+#rtemu_zone_initiator {
+    height: 0;
+    bottom: 7px;
+    position: fixed;
+    right: 1.5%;
+    z-index: 10;
+    height: 36px;
+    width: 230px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+/* This is the button that shows the widget */
+#rtqqwg_btn_show {
+    height: 36px;
+    font-size: 100%;
+    text-align: center;
+    width: 100%;
+    background: rgba(159, 166, 23, 0.8); /*reftcss|qqwidget|Show button background colour|Ajn5rdxwu3guPIC9*/
+    color: #ffffff; /*reftcss|qqwidget|Show button text colour|Ajn5rlm87dh5PIC9*/
+    border-radius: 5px;
+    border: 1px solid rgba(159, 166, 23, 1) /*reftcss|qqwidget|Show button border colour|Ajn5l87654guPIC9*/
+}
+
+    #rtqqwg_btn_show:hover {
+        background-color: rgba(159, 166, 23, 1); /*reftcss|qqwidget|Show button hover colour|Ajn5lk9876g5PIC9*/
+        cursor: pointer;
+        color: #ffffff; /*reftcss|qqwidget|Show button hover text colour|A0oknv54a6g5PIC9*/
+    }
