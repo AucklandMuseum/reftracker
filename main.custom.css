@@ -1,4 +1,12 @@
-﻿img {
+﻿/* AKM fonts */
+
+@font-face {
+    font-family: 'Gotham Narrow Medium';
+    font-weight: 900;
+    src: url("https://www.aucklandmuseum.com/Client/CSS/AucklandMuseum/fonts/GothamNarrow-Medium.woff2") format("woff");
+  }
+
+img {
     border: 0
 }
 
@@ -26,12 +34,7 @@ html, body {
     padding: 0;
     color: #333333; /*reftcss|misc|Default text colour|IxAqZ4QA02TBx0DT*/
     background-color: #FFFFFF; /*reftcss|misc|Default background colour|ZdbzqDMbk2SCqBUz*/
-    font-family: Arial,"Microsoft Sans Serif";
-}
-
-.reContentArea {
-    font-family: Arial,"Microsoft Sans Serif";
-   /* font-size:1em !important;*/
+    font-family: "Gotham Narrow Medium";
 }
 
 fieldset {
@@ -43,7 +46,7 @@ fieldset {
 }
 /* This is the ID of the main division in each reftracker page which contains all other HTML controls */
 #pgobman {
-    margin-top: 8px;
+    padding-top: 10px;
     margin-left: 8px;
     margin-right: 8px;
     margin-top: 0;
@@ -138,7 +141,7 @@ fieldset {
 
     .menuPanelTitle span {
         font-size: 1.05em !important;
-        color: #010101 !important; /*reftcss|menu|Menu panel title text colour|Au4Jlnyku3guPIC9*/
+        color: #555555 !important; /*reftcss|menu|Menu panel title text colour|Au4Jlnyku3guPIC9*/
         text-decoration: none !important;
         font-weight: bold;
     }
@@ -168,6 +171,10 @@ fieldset {
     padding-top: 5px;
     margin-bottom: 8px;
 }
+
+
+
+
 
     .controlLine .lyodiv {
     }
@@ -218,7 +225,10 @@ fieldset {
 /* End:controlLine: Contains the controls added to the page under the action bar */
 /* Start: timer controls -used for control which allows uses to start and stop timer */
 
-
+.timerControl input {
+    margin-right: 4px;
+    margin-bottom: 2px;
+}
 
 .timerImage {
     display: inline-block;
@@ -297,11 +307,11 @@ fieldset {
     display: block;
     font-size: 1.3em;
     line-height: 40px;
-    color: #010101; /*reftcss|attachment|File drop title text colour|wFuRkBekabKVqbAp*/
+    color: #555555; /*reftcss|attachment|File drop title text colour|wFuRkBekabKVqbAp*/
 }
 
 *.fileDropText {
-    color: #010101; /*reftcss|attachment|File drop text colour|eD6AaPB0KIzhCiNE*/
+    color: #555555; /*reftcss|attachment|File drop text colour|eD6AaPB0KIzhCiNE*/
     font-size: 0.9em;
     font-style: italic;
     font-weight: normal !important;
@@ -348,28 +358,6 @@ fieldset {
     font-weight: bold;
 }
 
-.smplalert {
-    font-size: 14px !important;
-    letter-spacing: 1px;
-    background-color: #C11C28 !important; /*reftcss|misc|Statistics sample alert background|309nf4aJEaY4wUKb*/
-    border-radius: 5px;
-    color: #ffffff; /*reftcss|misc|Statistics sample alert text|3kng56aJEaY4wUKb*/
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 3px;
-    padding-top: 3px;
-}
-
-.dexuid {
-    padding-bottom: 6px;
-}
-
-    .dexuid span {
-        color: #C11C28 !important; /*reftcss|misc|Data extract key text|398bcrdJEaY4wUKb*/
-        font-family: 'Courier New';
-        font-size: 16px !important;
-        letter-spacing: 1px;
-    }
 
 /* End Statistics */
 
@@ -462,7 +450,7 @@ fieldset {
 }
 
     *.rtcllnkemp A:hover {
-        color: #010101; /*reftcss|client|Emphasised link text colour hover|StImE0Ua0mQFAOFU*/
+        color: #555555; /*reftcss|client|Emphasised link text colour hover|StImE0Ua0mQFAOFU*/
         text-decoration: underline;
     }
 
@@ -475,7 +463,7 @@ fieldset {
 }
 
     *.rtcllnkstd A:hover {
-        color: #010101; /*reftcss|client|Standard link hover|KVX96fz7E6RER4Ix*/
+        color: #555555; /*reftcss|client|Standard link hover|KVX96fz7E6RER4Ix*/
         text-decoration: underline;
     }
 
@@ -515,8 +503,6 @@ fieldset {
 }
 
 *.rqformdvstd {
-    border: 1px solid;
-    border-color: #E0E0E0; /*reftcss|reqform|Request form division border colour|l0yN4K3E0i2P8SRX*/
     font-size: 1em;
     border-radius: 6px;
     margin-bottom: 15px;
@@ -558,25 +544,18 @@ fieldset {
     white-space:normal;
     text-align:left;
 }
-
-.rfotlbl {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    display: inline-block;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.2em;
-    color: #010101;
-}
 /*.lbdiv*/
-h2 input {
+h2 input{
+
     /* Used to remove class button styling for presenter div heading */
     background-color: transparent !important;
     color: inherit !important;
     border-width: 0px !important;
-    padding: 0px !important;
-    font-weight: bold;
-    font-family: inherit !important;
+    padding:0px !important;
+    font-weight:bold;
+    font-family:inherit !important;
+
+
 }
 *.lbstandard {
     background-color:transparent;
@@ -593,7 +572,7 @@ h2 input {
 /* Used for divisions in request forms which are added at run-time - eg 'other' fields */
 *.lbspecial {
     background-color: transparent;
-    color: #010101; /*reftcss|reqform|Division label sepcial text colour|xBHtGKvEKNxrZpqH*/
+    color: #555555; /*reftcss|reqform|Division label sepcial text colour|xBHtGKvEKNxrZpqH*/
 }
 *.lberror {
     background-color: transparent;
@@ -605,42 +584,20 @@ h2 input {
 *.lbplain {
     font-weight: normal;
     font-size: 1em !important;
-
-    color: #707B7C; /*reftcss|reqform|Division label plain (deskstats) text colour|cKbA3Fei8u7ytOKB*/
+    color: #333333; /*reftcss|reqform|Division label plain (deskstats) text colour|cKbA3FeUambqGOKB*/
     text-align: left;
 }
-
 
 *.copyhl {
     color: #C11C28; /*reftcss|reqform|Copy instruction sub label text colour|4t6PdLREa3IAikp6*/
 }
 
-
 *.errLabel {
-    border-bottom: #C11C28 0px dotted; 
-    color: #C11C28 !important;/*reftcss|reqform|Label font colour for fields with error|mQC5EyVUKuZptIb7 */
+    border-bottom: #C11C28 1px dashed; /*reftcss|reqform|Label border colour for fields with error|mQC5EyVUKuZptIb7*/
 }
-
-
-.errLabel::after {
-    content: " \00bb";
-    font-size: 18px;
-}
-
 
 *.wrnLabel {
-    border-bottom: #EFA500 0px dashed; 
-    color: #EFA500 !important;/*reftcss|reqform|Label fontr colour for fields with warning|uZhLYREu7sQ3kAMr*/
-}
-
-    *.wrnLabel::after {
-        content: " \00bb";
-        font-size: 18px;
-    }
-
-*.wrntext {
-    color: #EFA500 !important;
-    font-weight: bold;
+    border-bottom: #555555 1px dashed; /*reftcss|reqform|Label border colour for fields with warning|uZhLYREu7sQ3kAMr*/
 }
 
 .flag {
@@ -648,15 +605,11 @@ h2 input {
     margin-left: -4px !important;
 }
 
-.flagcell .noplistwrapperh {
-    border-left: 4px solid #C11C28 !important;
-}
-
 .flagcontainer select {
     border-left: 4px solid #C11C28 !important; /*reftcss|reqform|Left border highlight for flagged fields #2|Q7zTRSUycGj8CEh0*/
 }
 
-.flagcontainer .RadEditor, .flagcontainer .dateTimePanel, .flagcontainer .contactPanel, .flagcontainer .optionPanel, .flagcontainer .timerControl {
+.flagcontainer .RadEditor, .flagcontainer .dateTimePanel, .flagcontainer .contactPanel, .flagcontainer .optionPanel {
     border-left: 4px solid;
     border-left-color: #C11C28 !important; /*reftcss|reqform|Left border highlight for flagged fields #3|vexq3zE6Ml79B3kt*/
 }
@@ -669,32 +622,7 @@ h2 input {
 .normalSelect {
     /* background-color: transparent !important; */  /* NERA EXPERIMENTAL CHANGE */
 }
-
-
-
-
-.switchreq {
-    background-color: rgba(238,238,238,0.3); /*reftcss|reqform|Switch checkbox required unselected background colour|aMki87vfrfJ5QYTh*/
 }
-
-    .switchreq:hover {
-        background-color: rgba(238,238,238,0.75); /*reftcss|reqform|Switch checkbox required hover background colour|aMki8798b4w2qYTh*/
-    }
-
-.switchopt {
-    background-color: #f5f5f5; /*reftcss|reqform|Switch checkbox optional selected background colour|anbv65486fc2qYTh*/
-}
-
-    .switchopt:hover {
-        background-color: #e0e0e0; /*reftcss|reqform|Switch checkbox optional selected background colour|anbvlkrqb4w2qYTh*/
-    }
-
-
-.switchchecked {
-    background-color: #f5f5f5 !important; /*reftcss|reqform|Switch checkbox selected background colour|anbv654db4w2qYTh*/
-}
-
-
 
 /* END: Reqform division labels */
 /* START: Button    */
@@ -703,64 +631,22 @@ div.rtButton {
     background-color: inherit !important;
 }
 
-*.rtBtnInputSec {
-    font-size: 12px;
-    border-radius: 2px;
-    height: 21px;
-    border: 1px solid;
-    font-family: Arial,"Microsoft Sans Serif" !important;
-    border-color: rgba(67,84,196,1); /*reftcss| button|Secondary button border colour|cK9598hy6deUI1ns*/
-    background-color: rgba(67,84,196,0.75); /*reftcss|button|Secondary button background colour|XBUuhvfr43wRQKZ4*/
-    color: #FFFFFF; /*reftcss|button|Secondary button text colour|zlA094ki84esqpmn*/
-    margin-left: 1px;
-    margin-right: 1px;
-}
-
-
-
-*.rtBtnInputSec:hover {
-    background-color: rgba(67,84,196,1); /*reftcss|button|Secondary button background colour hover|MtALJqV876vfreEt*/
-    cursor: pointer;
-}
-
-
-*.rtBtnInputPrm {
-    font-size: 14px;
-    font-weight:bold;
-    border-radius: 2px;
-    height: 28px;
-    border: 1px solid;
-    font-family: Arial,"Microsoft Sans Serif" !important;
-    border-color: rgba(67,84,196,1); /*reftcss| button|Key button border colour|cK952rQkSNlUI1ns*/
-    background-color: rgba(67,84,196,0.75); /*reftcss|button|Key button background colour|XBUwI0xkmCwRQKZ4*/
-    color: #FFFFFF; /*reftcss|button|Key button text colour|zlA094hUy0noRpmn*/
-    margin-left: 1px;
-    margin-right: 1px;
-    min-width:80px;
-
-}
-
-
-
-    *.rtBtnInputPrm:hover {
-        background-color: rgba(67,84,196,1); /*reftcss|button|Key button background colour hover|MtALJqV02H1j85Et*/
-        cursor: pointer;
-    }
-*.rtButtonInputDisabled {
+*.rtButtonInput {
     font-size: 0.9em;
     border-radius: 2px;
-    height: 21px;
+    height: 20px;
     border: 1px solid;
     font-family: Arial,"Microsoft Sans Serif" !important;
-    border-color: #E0E0E0; 
-    background-color: #E0E0E0;
-    color: slategray;
+    border-color: rgba(67,84,196,1); /*reftcss| button|Input button border colour|cK952rQkSNlUI1ns*/
+    background-color: rgba(67,84,196,0.75); /*reftcss|button|Input button background colour|XBUwI0xkmCwRQKZ4*/
+    color: #FFFFFF; /*reftcss|button|Input button text colour|zlA094hUy0noRpmn*/
     margin-left: 1px;
     margin-right: 1px;
-    cursor:none;
 }
 
-
+    *.rtButtonInput:hover {
+        background-color: rgba(67,84,196,1); /*reftcss|button|Input button background colour hover|MtALJqV02H1j85Et*/
+    }
 
 .rtButtonLink a {
     padding: 3px 3px;
@@ -809,15 +695,17 @@ div.rtButton {
 /* Buttons used to expand and contract text areas */
 
 *.xbutton {
+    /*padding: 1px;*/
     padding: 2px;
     padding-bottom:13px;
     margin: 2px;
     display: block;
     text-align: center;
     vertical-align: central;
+    /*background-position: bottom;*/
     background: transparent;
     border: 1px solid;
-    border-color: #010101; /*reftcss| button|Text area size button border colour|KZugER4CkqAf5ANT*/
+    border-color: #555555; /*reftcss| button|Text area size button border colour|KZugER4CkqAf5ANT*/
     color: #333333; /*reftcss| button|Text area size button text colour|wglasPOAEmiCbv43*/
     cursor: pointer;
     font-weight: normal;
@@ -835,68 +723,6 @@ div.rtButton {
     color: #FFFFFF; /*reftcss|button|Text area size button text colour hover|eT7u99vr0v9OehqQ*/
 }
 
-.attnCheckBox {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    cursor: pointer;
-    font-size: 18px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-    .attnCheckBox input {
-        position: absolute;
-        opacity: 0;
-        cursor: pointer;
-        height: 0;
-        width: 0;
-    }
-
-.attnCheckMark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 14px;
-    width: 14px;
-    background-color: rgba(238,238,238,0.4); /*reftcss| button|Attention check box background colour|W9mvfrqlEm4LVXeT*/
-    border: solid 1px darkgrey;
-}
-
-.attnCheckBox:hover input ~ .attnCheckMark {
-    background-color: rgba(238,238,238,1); /*reftcss| button|Attention check box background colour hover|W9mvfrqlEmtvcds3*/
-    border: solid 1px #C11C28;
-}
-
-.attnCheckBox input:checked ~ .attnCheckMark {
-    background-color: rgba(238,238,238,1); /*reftcss| button|Attention check box background colour checked|W954dewqEmtvcds3*/
-}
-
-.attnCheckMark:after {
-    content: "";
-    position: absolute;
-    display: none;
-}
-
-.attnCheckBox input:checked ~ .attnCheckMark:after {
-    display: block;
-}
-
-.attnCheckBox .attnCheckMark:after {
-    left: 4px;
-    top: 2px;
-    width: 4px;
-    height: 8px;
-    border: solid #333333; /*reftcss| button|Attention check box text colour|Wbvcgfd8Emtvcds3*/
-    border-width: 0 2px 2px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-}
-
-
 /* END: Standard button    */
 
 
@@ -909,25 +735,20 @@ div.rtButton {
 }
 
 *.ds1 {
-    background-color: rgba(238,238,238,0.3) !important; /*reftcss|deskstat|Input cell background colour hover|kAroFmUjEmGrYleP*/
-}
-
-.dscommem {
-    color: #333333 !important /*reftcss|deskstat|Deskstat comment message font colour|yHBDENCQeadx4R9K*/
-}
-.dscommemr {
-    color: #C11C28 !important; /*reftcss|deskstat|Deskstat comment required message font colour|yGRokbv5eadx4R9K*/
+    background-color: rgba(238,238,238,0.3); /*reftcss|deskstat|Input cell background colour hover|kAroFmUjEmGrYleP*/
 }
 
 /* Used to highlight fields that need an input in deskstats */
 *.dsAlertCtrl {
-    border: 1px solid !important;
-    border-color: #C11C28 !important; /*reftcss|deskstat|Deskstat input alert|yGREMJAhkadx4R9K*/
+    border: 1px solid;
+    border-color: #C11C28; /*reftcss|deskstat|Deskstat input alert|yGREMJAhkadx4R9K*/
 }
 
 /* dshus: deskstats header used cells */
 
-
+.dshus {
+    background: #E0E0E0; /*reftcss|deskstat|Column header background colour|EoRXYyDykGhUctyM*/
+}
 
 
 *.dsBatchMode tr td {
@@ -939,17 +760,7 @@ div.rtButton {
     border: 1px solid;
     border-color: #C0C0C0; /*reftcss|deskstat|Grid border colour - live mode|0P54hjoskovNBJFJ*/
 }
-.dshus {
 
-    border: 1px solid !important;
-    border-color: white !important;
-    background-color: white;
-    font-weight: bold;
-    font-size: 1.2em;
-    color: #C11C28 !important;/*reftcss|deskstat|Column header background colour|EoRXY8vf5dwkctyM*/
-    height: 21px !important;
-    vertical-align: middle;
-}
 /* END Deskstat */
 /* START miscellaneous    */
 
@@ -958,7 +769,7 @@ div.rtButton {
     text-transform: uppercase;
     color: #FFFFFF; /*reftcss|misc|Select list sub header text colour|zFJ6fSqTEuwJAwaP*/
     font-family: Arial, 'Microsoft Sans Serif';
-    background-color: #010101; /*reftcss|misc|Select list sub header background colour|QWb9TVw80ao9g6eS*/
+    background-color: #555555; /*reftcss|misc|Select list sub header background colour|QWb9TVw80ao9g6eS*/
     font-style: italic;
     height: 30px;
     font-variant: small-caps;
@@ -1061,26 +872,12 @@ div.rtButton {
 
 
 .borderLess .rwTitle {
-    color: #010101 !important; /*reftcss|misc|Sub-window title text colour |g0U16a0m34JpqQvP*/
+    color: #555555 !important; /*reftcss|misc|Sub-window title text colour |g0U16a0m34JpqQvP*/
     font-weight: bold;
 }
 
 
 /* START miscellaneous    */
-
-
-*.whiteBoard {
-    margin: auto;
-    width: 80%;
-    border: 1px dotted;
-    border-color: #E0E0E0; /*reftcss|misc|Whiteboard border colour|Wlokoju7kEOwmb4e*/
-    background-color: #f5f5f5; /*reftcss|misc|Whiteboard background colour|lour43qxkEOwmb4e*/
-    padding: 25px !important;
-    font-size: 14px;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    border-radius: 5px;
-}
 
 /* Used for question number when presented as a hyperlink */
 
@@ -1091,17 +888,6 @@ div.rtButton {
 }
 
     *.qno A:hover {
-        text-decoration: underline;
-    }
-
-
-*.qnocl A {
-    font-size: 1em;
-    color: #010101 !important; /*reftcss|misc|Closed question number text colour|WFI1RFhgvc612b4e*/
-    text-decoration: none;
-}
-
-    *.qnocl A:hover {
         text-decoration: underline;
     }
 
@@ -1121,19 +907,11 @@ div.rtButton {
 
 *.pageTitle h1 {
     vertical-align: baseline;
-    font-size: 20px;
+    font-size: 1.0em;
     color: #000001; /*reftcss|misc|Page title text colour|yYKusAoqz0CdOvjq*/
     display: inline;
     font-family: Calibri;
     vertical-align: baseline;
-}
-
-
-.pageSubTitle {
-    color:  #000001; /*reftcss|misc|Page subtitle text colour|yYKlkn6eq0CdOvjq*/
-    font-size: 20px;
-    font-weight: bold;
-    font-family: Calibri;
 }
 
 .prov200 .pageTitle{
@@ -1152,11 +930,6 @@ div.rtButton {
         font-style: normal;
         text-decoration: underline;
     }
-
-.resText {
-    border: 1px dotted #010101 !important;
-    height: 22px;
-}
 
 IMG.rgimage {
     cursor: pointer;
@@ -1178,7 +951,7 @@ IMG.rgimage {
 .headerText {
     font-weight: bold;
     font-size: 1.2em;
-    color: #010101; /*reftcss|misc|Qprint header text colour|ZIkWNc7tT0uVwVnM*/
+    color: #555555; /*reftcss|misc|Qprint header text colour|ZIkWNc7tT0uVwVnM*/
     font-family: Arial, 'Times New Roman';
 }
 
@@ -1228,7 +1001,6 @@ IMG.rgimage {
 table.resultsTable {
     width: 100%;
     border: 1px solid #E0E0E0;
-
 }
 
     table.resultsTable th {
@@ -1355,36 +1127,7 @@ table.layoutEditTable {
 
 /* END Edit lalyout table */
 
-
-
-/* START new option list controls */
-
-
-.noplistv, .noplisth .lyodiv {
-    background-color: #f5f5f5; /*reftcss|optionPanel| Option panel background colour|f1Scq7bfrdqvE2qs*/
-}
-
-.noplistitem input[type="checkbox"]:checked, .noplistitem input[type="radio"]:checked, .switchctrls input[type="checkbox"]:checked, .resCont input[type="checkbox"]:checked {
-    background-color: #C11C28; /*reftcss|optionPanel| Option panel checked colour|f10mktf4adqvE2qs*/
-}
-
-
-
-.seloption label {
-    color: #C11C28; /*reftcss|optionPanel|Option table selected item text colour|TLVmnyt54sV9ylJF*/
-}
-
-.hloption label {
-    color: #C11C28; /*reftcss|optionPanel|Option table selected item text colour hover|zrRrLlomn65rk4L8*/
-}
-/* End new option list controls */
-
-
-
 /* START Option List Table */
-
-
-
 
 .tblopl {
     background-color: #F2F2F2; /*reftcss|optionTable|Option table background colour|f1ScqCow0e54E2qs*/
@@ -1416,21 +1159,6 @@ table.layoutEditTable {
         .tblopl td div{
             margin-right:3px;
         }
-
-
-
-
-.opcb{
-
-
-}
-
-/*
-.tbloptch td{
-
-    width:auto !important;
-    padding:2px !important;
-}*/
 .selradio {
 }
 
@@ -1447,9 +1175,9 @@ table.layoutEditTable {
 
 .tbloplt {
     border: 1px solid;
-    border-color: #010101; /*reftcss|optionTable|Option table header border colour|yJvzrnJUeUc4YXYk*/
+    border-color: #555555; /*reftcss|optionTable|Option table header border colour|yJvzrnJUeUc4YXYk*/
     padding: 1px 0px 1px 0px;
-    background-color: #010101; /*reftcss|optionTable|Option table  header background colour|7rcht3nEy6cfHmjT*/
+    background-color: #555555; /*reftcss|optionTable|Option table  header background colour|7rcht3nEy6cfHmjT*/
     text-align: center;
     color: #FFFFFF; /*reftcss|optionTable|Option table header text colour|yJrmrpdUH1BPzylS*/
     margin-bottom: 2px;
@@ -1487,7 +1215,7 @@ table.tbllogin hr {
 }
 
     table.tbllogin span {
-        color: #010101 !important; /*reftcss|authorisation|Login table label text colour|fAVong5qc3sXvrMC*/
+        color: #555555 !important; /*reftcss|authorisation|Login table label text colour|fAVong5qc3sXvrMC*/
         font-weight: bold;
         margin-right: 10px;
     }
@@ -1503,7 +1231,7 @@ table.tbllogin hr {
         text-align: center;
         background-color: #f2f2f2; /*reftcss|authorisation|Login table header background colour|8Z64sx6YA0u6r51s*/
         font-family: Arial, Helvetica, sans-serif;
-        color: #010101; /*reftcss|authorisation|Login table header text colour|bsXXRFRhMEmoIEvP*/
+        color: #555555; /*reftcss|authorisation|Login table header text colour|bsXXRFRhMEmoIEvP*/
         font-weight: bold;
         border-top-left-radius: 3px;
         border-top-right-radius: 3px;
@@ -1596,7 +1324,7 @@ table.tbltr tr.gvsr {
 *.msgAreaContainer {
     /*margin-bottom:10px;*/
 
-    background-color: #F5F5F5; /*reftcss|message|Message area background colour|tHoaVzn70KBOicE3*/
+    background-color: #F5F5F5 /*reftcss|message|Message area background colour|tHoaVzn70KBOicE3*/
 }
 
 *.msgAreaInfo {
@@ -1605,7 +1333,7 @@ table.tbltr tr.gvsr {
     border-right: 0px;
     border-bottom: 0px;
     border-left: 10px solid;
-    border-left-color: #010101; /*reftcss|message|Message area, Type: information, left border colour|I3vXt3mMUmk3Q53y*/
+    border-left-color: #555555; /*reftcss|message|Message area, Type: information, left border colour|I3vXt3mMUmk3Q53y*/
     padding-bottom: 5px;
     padding-top: 5px;
     background-color: transparent;
@@ -1653,87 +1381,26 @@ table.tbltr tr.gvsr {
     border-top: 0px;
     border-bottom: 0px;
     border-left: 10px solid;
-    border-left-color: #EFA500; /*reftcss|message|Message area, Type: alert, left border colour|WOxGzdDUaMX23vTH*/
+    border-left-color: #E7A614; /*reftcss|message|Message area, Type: alert, left border colour|WOxGzdDUaMX23vTH*/
     border-right: 0px;
     padding-bottom: 5px;
     padding-top: 5px;
     background-color: transparent;
 }
 
-*.msgAreaWarning {
-    border-style: solid;
-    border-top: 0px;
-    border-bottom: 0px;
-    border-left: 10px solid;
-    border-left-color: #EFA500; /*reftcss|message|Message area, Type: warning, left border colour|WOxGzmnb65fe3vTH*/
-    border-right: 0px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    background-color: transparent;
-}
 *.msgAreaQsumm {
     border-style: solid;
     border-top: 0px;
     border-bottom: 0px;
     border-left: 10px solid;
-    border-left-color: #010101; /*reftcss|message|Message area, Type: question summary, left border colour|JP5jAIm8U6MHhJlP*/
+    border-left-color: #555555; /*reftcss|message|Message area, Type: question summary, left border colour|JP5jAIm8U6MHhJlP*/
     border-right: 0px;
     padding-bottom: 5px;
     padding-top: 5px;
     background-color: transparent;
 }
 
-*.msgaimg{
 
-    width:40px;
-}
-
-*.msgacontent {
-
-    margin-bottom:2pt;
-    display:block;
-    overflow:hidden;
-    float:none;
-}
-
-*.msgaentry{
-
-    clear:left;
-}
-
-
-*.msgatitle {
-    font-size: 15px !important;
-}
-/* Bulleted error list */
-.msgaitem20 li {
-    list-style-type: "\00bb " !important;
-}
-
-    .msgaitem20 li::marker {
-        color: #C11C28 !important;
-        font-size: 21px !important;
-    }
-
-    .msgaitem20 li span {
-        margin-left: 5px !important;
-    }
-
-
-/* Bulleted warning list */
-
-.msgaitem15 li {
-    list-style-type: "\00bb " !important;
-}
-
-    .msgaitem15 li::marker {
-        color: #EFA500 !important;
-        font-size: 21px !important;
-    }
-
-    .msgaitem15 li span {
-        margin-left: 5px !important;
-    }
 /* START Classes used to display email content in reft601 */
 
 #emsrchdr {
@@ -1788,7 +1455,7 @@ table.tbltr tr.gvsr {
 }
 
     *.faintLink A {
-        color: #010101;
+        color: #555555;
         text-decoration: none;
         font-style: italic;
     }
@@ -1805,7 +1472,6 @@ table.tbltr tr.gvsr {
     font-weight: bold;
     color: #333333; /*reftcss|quickText|Quicktext name label text colour|QEmXdE8k6vN2Q0bd*/
     margin-bottom: 3px;
-    display:block;
 }
 
 *.qtclause {
@@ -1817,7 +1483,6 @@ table.tbltr tr.gvsr {
     padding-bottom: 3px;
     padding-right: 3px;
     margin-bottom: 3px;
-    display:block;
 }
 
 *.qtcontrols {
@@ -1833,10 +1498,9 @@ table.tbltr tr.gvsr {
     font-weight: bold;
     margin-left: 10px;
     margin-right: 5px;
-  /*  display: block;*/
+    display: block;
     padding: 3px;
     border: 1px solid transparent;
-    display:inline
 }
 
     *.qtsearch:hover {
@@ -1907,10 +1571,6 @@ table.tbltr tr.gvsr {
     background-color: #EEEEEE; /*reftcss|search|Search word highlight background colour|vMwE8zSGKk6K7SAn*/
 }
 
-*.workloadChartKey {
-    background-color: #000001; /*reftcss|search|Workload chart key colour|vMmnk0xs4k6K7SAn*/
-}
-
 /* Caclulated score for a word search - used for debug display only */
 *.relevancy {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -1925,7 +1585,7 @@ table.tbltr tr.gvsr {
 
 /* Search criteria row */
 *.srchCriteriaRow {
-    height: 26px;
+    height: 21px;
 }
 
 /* Search criteria set (Word, General Question etc)  */
@@ -1933,7 +1593,7 @@ table.tbltr tr.gvsr {
     border: 1px solid;
     border-color: #E0E0E0; /*reftcss|search|Search criteria set border colour|2sMKaQik67SANrDr*/
     margin: 3px;
-    padding: 2px 2px 20px 6px;
+    padding: 2px 2px 8px 6px;
     background-color: #FFFFFF !important; /*reftcss|search|Search criteria set background colour|YNQN4TBEOzfGWBtY*/
     clear: left;
     border-radius: 8px;
@@ -2013,15 +1673,15 @@ table.tbltr tr.gvsr {
 }
 
 .tilesmall {
-    min-height: 210px;
+    min-height: 175px;
 }
 
 .tilelarge {
-    min-height: 440px;
+    min-height: 371px;
 }
 
 .tileHead {
-    color: #010101 !important; /*reftcss|maintile|Home tile header text colour|7eyBxLh0efiHccMs*/
+    color: #555555 !important; /*reftcss|maintile|Home tile header text colour|7eyBxLh0efiHccMs*/
     background-color: transparent;
     font-size: 1.1em;
     font-weight: bold;
@@ -2034,7 +1694,7 @@ table.tbltr tr.gvsr {
 
 .summChartLabels td {
     /* This year, Last Year etc */
-    color: #010101; /*reftcss|maintile|Summary chart legend colour|7eyBxLkb3dazccMs*/
+    color: #555555; /*reftcss|maintile|Summary chart legend colour|7eyBxLkb3dazccMs*/
 }
 
 
@@ -2063,10 +1723,8 @@ table.tbltr tr.gvsr {
 }
 
 .tilebody {
-
-     padding: 0px 10px 10px 10px;
+    padding: 10px;
 }
-
 
 *.tileover {
     border: 1px solid;
@@ -2315,12 +1973,7 @@ div#mbar.clientProvince {
     font-weight:normal !important;
 
 }
- /* time used to date */
-.jtottutodt{
 
-margin-left:5px;
-
-}
 
 .jtotsublabel .rtsflab {
     margin-right: 1px;
