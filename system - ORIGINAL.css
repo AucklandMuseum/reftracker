@@ -1,0 +1,1670 @@
+
+
+@media print {
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+
+@media screen {
+    .no-display, .no-display * {
+        display: none !important;
+    }
+}
+
+/* RadEditor */
+.showtoolsbutton{
+    margin-top:8px;
+}
+
+#pgobuser img {
+    /*width:14px;
+            height:14px;*/
+}
+
+
+#pgcicsb {
+    margin-top: 8px;
+}
+
+#pgobusdt lyodiv1 {
+    margin-bottom: 3px;
+}
+
+#pgobusdt :hover {
+    text-decoration: underline;
+    cursor: default;
+}
+
+/* disables the blue line around the action bar menu when it has the focus */
+div:focus {
+    outline: 0 !important;
+    outline: none !important;
+}
+
+
+/* Sets margin for a presenter line when used in a Telerik tab */
+/*.pageView .prbody .rqformline{
+            margin-left:50px !important;
+           }*/
+
+/* Sets margin for a presenter line when used in a Telerik tab */
+/*.multiPage .rqformline{
+            margin-left:10px;
+           }*/
+
+
+/* RadCombo has started setting this value to white by default */
+/* don't know why and onlyway to resolve it seems to override */
+
+.RadComboBox_Default .rcbFocused .rcbReadOnly .rcbInput {
+    color: Inherit !important;
+}
+
+
+#mbarDynamic {
+    padding-bottom: 3px !important;
+}
+
+.manageQLink {
+    margin-bottom: 10px;
+}
+
+.questionSearchCtrl {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#pgosbxcontainer {
+}
+
+#newsearchbox {
+    display: inline !important;
+    float: left;
+}
+
+#oldsearchbox {
+    display: inline !important;
+    background-color: yellow;
+}
+
+
+
+
+
+
+/* availability control */
+
+.avctrl {
+    display: inline;
+    margin-left: 5px;
+}
+
+    .avctrl img {
+        vertical-align: middle !important;
+    }
+
+.avactive img {
+    /*height:10px !important;
+            width:10px !important;*/
+}
+
+
+
+*.subwinall {
+    text-decoration-line: none !important;
+}
+
+
+    *.subwinall img {
+        margin-left: 6px;
+        height: 15px;
+        width: 15px;
+        vertical-align: text-bottom;
+        display: inline;
+    }
+
+/* RefTracker horizontal menu */
+.refthzmenu {
+    /*text-align:center ;*/
+    margin-left: 6px;
+    margin-bottom: 10px;
+}
+
+    .refthzmenu img {
+        margin-right: 6px;
+    }
+
+    .refthzmenu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: inline-block;
+    }
+
+    .refthzmenu li {
+        float: left;
+    }
+
+        .refthzmenu li a {
+            display: inline-block;
+            text-align: center;
+            padding-right: 10px;
+            text-decoration: none;
+        }
+
+
+
+/* */
+.qsimage {
+    font-size: 1.4em;
+}
+
+
+/* Default link should inherit from parent */
+a {
+    color: inherit;
+}
+
+p.MsoNormal, li.MsoNormal, div.MsoNormal {
+    margin: 0cm;
+    margin-bottom: .0001pt;
+    font-size: 12.0pt;
+    font-family: "Times New Roman","serif";
+}
+
+
+/* btn: button */
+
+/* btn: button */
+
+
+*.rtbutton {
+    margin-right: 1px;
+    margin-left: 1px;
+    border-radius: 2px !important;
+}
+
+
+*.rtBtnInputClicked {
+    background-color: #E0E0E0 !important;
+    color: #5E6E66 !important;
+    border: 1px solid #C0C0C0  !important;
+}
+
+/* TEMP */
+
+
+
+/* ------   */
+
+body img.requiredBefore {
+    display: none;
+}
+
+
+div.RadGrid:focus {
+    outline: none;
+}
+
+#uicisbhpdiv {
+    display: none;
+}
+
+
+/* system tables */
+.tblstc {
+    /* Structural  Table */
+    border-collapse: collapse;
+    border: none;
+}
+
+
+    .tblstc td {
+        padding: 0px;
+        margin: 0px;
+        border: none;
+    }
+
+.systable {
+}
+
+    .systable td {
+        vertical-align: top;
+        /*text-align:left;*/
+    }
+
+/* system tables */
+
+
+.copyatt {
+    width: 10% !important;
+}
+
+.tblatt {
+    /* Structural  Table */
+    margin-top: 3px;
+    border-collapse: collapse;
+    border: none;
+    min-width: 300px;
+}
+
+
+    .tblatt td {
+        padding: 2px;
+        margin: 0px;
+        border: none;
+        vertical-align: top;
+        text-align: left;
+    }
+
+        .tblatt td img {
+            margin-right: 5px;
+        }
+
+.tblattdel {
+    width: 50% !important;
+}
+/* Layout table */
+
+.tblyx {
+    width: 100% !important;
+}
+
+    .tblyx td {
+        /*  border-width: 0px; */
+        padding: 2px 3px 2px 0px;
+        /*text-align:left;*/
+        vertical-align: top;
+    }
+
+        .tblyx td td {
+            padding: 2px 4px 4px 0px;
+        }
+
+.tblym {
+}
+
+    .tblym td {
+        /*  border-width: 0px; */
+        padding: 2px 3px 2px 3px;
+    }
+
+        .tblym td td {
+            padding: 2px 4px 4px 4px;
+        }
+
+
+
+/* Disabled field */
+
+.disbfIE {
+    /*padding: 2px 3px 2px 1px;*/
+    background-color: #f5f5f5;
+    border: 2px solid #f5f5f5;
+}
+
+
+.disbfMoz {
+    /*padding: 2px 1px 2px 1px;*/
+    background-color: #f5f5f5;
+    border: 2px solid #f5f5f5;
+    /*border-color:#cccccc;*/
+}
+
+/* system highlight - only used for debug data */
+
+*.syshl {
+    color: #C11c14;
+}
+
+
+
+
+
+
+
+
+
+
+.lyodiv {
+    display: inline;
+    float: left;
+    background-color: inherit;
+}
+
+
+
+* .dvis {
+    display: inline;
+}
+
+*.dhid {
+    display: none;
+}
+
+
+/* Text area panel */
+*.tapanel {
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 100%;
+}
+
+*.tactrl {
+    width: 25px;
+    float: right;
+}
+
+    *.tactrl td {
+        padding: 0px !important;
+        vertical-align: top;
+    }
+/* presenter head */
+
+
+*.prhead {
+    margin-bottom: 0px;
+    padding-bottom: 3px;
+    padding-top: 1px;
+    outline: 0;
+    border-top-width: 1px;
+    border-top-color: transparent;
+    border-top-style: solid;
+}
+
+*.rqformline {
+    margin-top: 0px;
+    margin-bottom: 3px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.rqlinesolo {
+    padding-left: 5px;
+}
+
+#reftTabStrip {
+    padding-left: 5px;
+}
+
+#reftPageView {
+    padding-left: 5px;
+}
+
+
+*.prhead img {
+    margin-left: 3px;
+}
+
+*.prbody {
+    margin-bottom: 1px;
+}
+
+
+*.rqd, *.rqde {
+    border-radius: 7px !important;
+}
+
+.rqdctrl {
+    padding-left: 3px;
+}
+
+*.prhead:hover {
+}
+
+*.prlab {
+    margin-bottom: 5px;
+}
+
+
+/* Standard width for division label in presenter/request form */
+*.prlabst {
+    width: 100%;
+    max-width: 500px;
+}
+
+*.prlabsm {
+    width: 120px;
+}
+
+/* resource entry table */
+*.restb {
+    margin-bottom: 3px;
+}
+
+*.pseudoAnchor {
+    color: #CC3300;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+*.doodah {
+    background-color: #FFFF99;
+}
+
+*.refttt {
+    padding-top: 10px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #C0C0C0;
+}
+
+
+*.reftclear {
+    clear: left;
+}
+
+*.continfo {
+    display: inline;
+    float: left;
+}
+
+
+*.sigChange {
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+*.hyline {
+    /*  margin-bottom: 20pt; */
+}
+
+*.hyent {
+    padding-bottom: 14px;
+}
+
+
+
+
+*.milodump {
+    overflow: hidden !important;
+}
+
+
+
+#blackout {
+    display: none;
+    position: fixed;
+    z-index: 100; /* above everything else */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,.25)
+}
+
+
+*.newButton {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+/* radEditor - Allow resize in design mode only */
+.reToolZone table tr {
+    display: block !important;
+    float: right;
+}
+
+*.tttt {
+    z-index: 1999;
+}
+
+/* development stuff here */
+
+*.qsbutton {
+    border: 2px solid #666666;
+    background-color: #666666;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+#pgcisp.clientname {
+    width: 90% !important;
+}
+
+#pgcisrchgrps {
+}
+
+    #pgcisrchgrps td {
+        /*border: thin solid #FF33CC;*/
+    }
+
+
+
+/*Telerik Elasticity*/
+
+/*Data area*/
+div.RadGrid,
+div.RadGrid .rgMasterTable,
+div.RadGrid .rgPager table {
+    font-size: 0.97em;
+    /* line-height: 1em;  */
+}
+
+    /*Pager*/
+    div.RadGrid .rgNumPart a {
+        line-height: 1.6;
+    }
+
+        div.RadGrid .rgNumPart a.rgCurrentPage {
+            background: white;
+            border: 1px solid gray;
+            border-radius: 3px;
+        }
+
+            div.RadGrid .rgNumPart a.rgCurrentPage span {
+                background: none;
+            }
+
+    div.RadGrid td.rgPagerCell {
+        padding: .6em 0 .2em;
+    }
+
+.reftMenuLinkContainer {
+    clear: both;
+    white-space: nowrap !important;
+}
+
+
+.reftMenuLinkMain {
+    display: inline !important;
+    float: left;
+}
+
+
+/*.RadMenu_RefTracker   .RadMenu .rmGroup .rmImage,
+    .RadMenu .rmGroup .rmLeftImage {
+    display: none;
+    }*/
+
+/* Hide the horizontal scroll bar */
+.RadCalendarPopup div {
+    border-width: 1px;
+    border-color: #999999;
+    overflow-x: hidden !important;
+    border-bottom-style: solid;
+    border-top-style: solid;
+}
+
+.RadCalendarTimeView {
+    background-color: #FFFFFF !important;
+    width: 100px !important;
+}
+
+.RadTimePicker {
+    width: 100px !important;
+    background-color: #FFFFFF !important;
+    font-size: 1em !important;
+}
+
+/*.RadTimePicker,*/
+.RadCalendarTimeView,
+.RadCalendarMonthView,
+.RadInput,
+.riTextBox,
+.rcTimePopup,
+.RadCalendar {
+    font-size: 1em !important;
+}
+
+/*.RadInput 
+{
+    width:6em !important;           
+}*/
+
+/* AutoCompleteBox */ html .RadAutoCompleteBox, html .RadAutoCompleteBoxPopup,
+/* Button */ html .RadButton,
+/* Calendar */ html .RadCalendar,
+/* ComboBox */ html .RadComboBox, html .RadComboBoxDropDown,
+/* Dock */ html .RadDock,
+/* DropDownList */ html .RadDropDownList, .rddtPopup .RadTreeView,
+/* DropDownTree */ html .RadDropDownTree, html .rddtPopup,
+/* ImageGallery */ html .RadImageGallery,
+/* LightBox */ html .RadLightBox,
+/* ListBox */ html .RadListBox,
+/* Map */ html .RadMap,
+/* MediaPlayer */ html .RadMediaPlayer,
+/* Menu */ html .RadMenu,
+/* Notification */ html .RadNotification,
+/* Rotator */ html .RadRotator,
+/* SearchBox */ html .RadSearchBox, html .rsbPopup,
+/* Slider */ html .RadSlider,
+/* SocialShare */ html .RadSocialShare,
+/* TagCloud */ .RadTagCloud,
+/* ToolTip */ html .RadToolTip,
+/* TreeView */ html .RadTreeView,
+/* Window */ html .RadWindow {
+    /*font-size: .9em;*/
+}
+
+.lowemph {
+    font-style: italic;
+    color: #666666;
+}
+
+
+
+/* sets the background image for the quicktext tool in the radEditor */
+
+.reTool .quickText {
+    background-image: url(../../include/images/main/quicktext.png);
+    background-position: 0 !important;
+}
+
+
+
+
+/* These items are used to manipulate the radEditor so that the toolbar etc can be hidden/displayed as required */
+
+.NoToolBar .reToolCell {
+    display: none; /* This is the toolbar at the top of the editor */
+}
+
+.NoToolBar .reToolZone {
+    /*display: none;*/ /* Tools as the bottom of the editor */
+}
+
+.NoToolBar .reContentCell {
+    padding: 0px !important;
+    margin: 0px !important;
+    width: 100%;
+    border-spacing: 0px;
+    border-style: none !important;
+}
+
+.NoToolBar .reLayoutWrapper {
+    padding: 0px !important;
+    margin: 0px !important;
+    width: 100%;
+    border-spacing: 0px;
+    border: 0px !important;
+    background-color: #FFFFFF !important;
+}
+
+*.radEditor .reLayoutWrapper {
+    border: 0px solid !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    border-spacing: 0px;
+}
+
+    *.radEditor .reLayoutWrapper td {
+        /* This is required so that the layout table used for the radEditor does not inherit padding from a RefTracker layout table */
+        padding: 0px !important;
+        margin: 0px !important;
+        vertical-align: top;
+    }
+
+
+.NoToolBar .reContentArea {
+    padding: 0px !important;
+    margin: 0px !important;
+    width: 100%;
+    height: 100% !important;
+    border-spacing: 0px;
+    border: 0px !important;
+    background-color: #FFFFFF !important;
+}
+
+
+
+
+
+.NoDom .reModule {
+    display: none; /* Don't know what this is */
+}
+
+/* The whole table of controls at the bottom of the radEditor */
+.NoButton .reBottomTable {
+    display: none;
+}
+
+/* ---------------------- End of radEditor stuff ------------------------------------- */
+
+
+*.extimg {
+    width: 75px;
+    height: auto;
+}
+
+.extimg img {
+    max-width: 100%;
+    height: auto;
+}
+
+*.vCenter {
+    position: relative;
+    top: 40%;
+    -webkit-transform: translateY(-40%);
+    -ms-transform: translateY(-40%);
+    transform: translateY(-40%);
+}
+
+
+/* Processing please wait wrapper div */
+.prqw {
+    background-color: transparent;
+  
+    position: fixed;
+    z-index: 100;
+    top: 45%;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+    width: 210px;
+    height: 210px;
+}
+
+/* Processing please wait inner div */
+
+.prqi {
+    border: 1px solid #CCCCCC;
+    background-color: #f5f5f5;
+
+    position: relative;
+    text-align: left;
+    width: 300px;
+    height: 170px;
+    margin: 0px auto;
+    border-radius:10px;
+}
+
+/* Processing request content */
+.prcn{
+
+    padding-top:30px;
+    width:100%;
+    text-align:center;
+    align-content:center;
+
+}
+
+    .prcn img {
+        /* 'objWait.Style.Add("display", "block") 'objWait.Style.Add("margin-bottom", "30px") */
+        display:block;
+        margin-bottom:30px;
+       
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+        
+    }
+
+*.appErrorContainer {
+    margin: auto;
+    width: 600px;
+}
+
+table.appErrorPanel td:nth-child(1) {
+    width: 15% !important;
+}
+
+table.appErrorPanel tr:first-child {
+    border-bottom: 1px solid silver;
+    padding-bottom: 15px !important;
+    height: 50px !important;
+}
+
+table.appErrorPanel tr:nth-child(2) td:first-child {
+    vertical-align: top;
+    padding-left: 15px !important;
+    padding-top: 15px !important;
+}
+
+table.appErrorPanel td:nth-child(3) {
+    width: 15% !important;
+}
+
+*.appErrorPanel td img {
+    height: 30px !important;
+    width: 30px !important;
+}
+
+*.debugTable {
+    /*padding: 5pt;
+  
+    margin: 10pt 0pt 0pt 0pt;
+    color: #333333;
+    font-family: Verdana;
+    font-size: 0.9em;
+    border-collapse: separate;
+    border: 1pt solid #fefefe;*/
+}
+
+table.debugTable {
+    width: 100%;
+    border: 1px solid #E0E0E0;
+    background-color: rgba(255, 204, 255, 0.1);
+}
+
+    table.debugTable th {
+        text-align: left;
+        border: 1px solid #E0E0E0;
+        padding-left: 10px;
+        padding-right: 5px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        vertical-align: top;
+    }
+
+    table.debugTable td {
+        border-style: solid;
+        border-width: 1px;
+        border-color: #E0E0E0;
+        padding-left: 10px;
+        padding-right: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        vertical-align: top;
+    }
+
+.RadGrid_Default .rgAltRow td {
+    border-color: transparent !important;
+}
+
+
+
+*.debugsql {
+    color: firebrick;
+}
+
+
+*.debugname {
+    color: lightseagreen;
+}
+
+*.debugval {
+    color: mediumslateblue;
+    font-weight: bold;
+}
+
+/* We don't want to use the default radWindow loading icon - remove here*/
+.rwLoading {
+    background-image: none !important;
+}
+
+/* FOR SEARCH GRIDS */
+
+
+.RadInput {
+    width: inherit !important;
+}
+
+.RadGrid_Default {
+    font-size: inherit !important;
+    font-family: inherit !important
+}
+
+.rgMasterTable {
+    font-size: inherit !important;
+    font-family: inherit !important
+}
+
+*.messageicon {
+    /*transform: translateX(-50%) translateY(-50%);*/
+}
+
+    *.messageicon A {
+        /*font-weight: bold;*/
+        color: forestgreen;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 3em;
+    }
+
+        *.messageicon A:hover {
+            /*font-weight: bold;*/
+        }
+
+*.messageiconactive {
+    /*transform: translateX(-50%) translateY(-50%);*/
+}
+
+    *.messageiconactive A {
+        /*font-weight: bold;*/
+        color: crimson;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 3em;
+    }
+
+        *.messageiconactive A:hover {
+            /*font-weight: bold;*/
+        }
+
+*.msgSummCtrl {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* Width of the Date and Time panel used to wrap the Telerik date and time controls */
+.dateTimePanel {
+    width: 90%;
+}
+/*https://www.telerik.com/support/code-library/how-to-set-width-for-raddatetimepickers-with-external-css*/
+.srchDateCtrl, .srchDateCtrl .rcTable {
+    width: 120px !important;
+}
+
+/* uses for the Telerik date and time input controls */
+.dateCtrl, .dateCtrl .rcTable {
+    width: 125px !important;
+    margin-right: 8px;
+}
+
+.timeCtrl, .timeCtrl .rcTimePopup {
+    /*margin-left:6px;*/
+    /*float:left;*/
+    background-color: transparent !important;
+}
+
+
+.ontheright {
+    text-align: right !important;
+}
+
+.riTextBox {
+    border: 1px solid #cccccc !important;
+}
+
+.timerControl {
+    display: block !important;
+}
+
+    .timerControl input {
+        border: 1px solid #cccccc !important;
+        height: 20px !important;
+        padding-left: 3px;
+    }
+
+
+
+/* Closing line */
+
+
+#pgciclinetmlb, #pgciclinehclb {
+    padding-right: 6px;
+}
+
+#pgciclinetmctl, #pgciclineconc, #pgciclinehcctl {
+    padding-right: 20px;
+}
+/*#pgciclineconc {
+    border-left: 4px solid #C11C14 !important;*/ /*reftcss|reqform|Left border highlight for flagged fields #2|Q7zTRSUycGj8CEh0*/
+/*}*/
+    /* End closing line */
+    .normalInput {
+        border: 1px solid #cccccc !important;
+    }
+
+
+/* Sub win all styling in menus */
+*.mswall {
+    margin-left: 3px;
+    font-size: 1.1em;
+}
+
+
+.divider {
+    width: 100%;
+    clear: both;
+    border-bottom: 1px solid #dcdcdc;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+/* remove main borders */
+
+.borderLess.RadWindow {
+    padding: 1px;
+}
+
+    /* remove the border around the content */
+    .borderLess.RadWindow .rwContent {
+        border: none !important;
+    }
+
+    /* both selectors below can be replaced with setting VisibleTitlebar="false" */
+    /* remove the titlebar widening */
+
+    .borderLess.RadWindow .rwTitleBar {
+        margin: 0;
+    }
+
+
+.borderLess .rwTitleWrapper {
+    background-color: #E0E0E0 !important;
+}
+
+*.pagelink {
+    display: inline;
+}
+
+*.pageTitle {
+    display: inline;
+    margin-left: 6px;
+    vertical-align: baseline;
+}
+
+
+.logintable {
+}
+
+.rcInputCell {
+    height: -10px;
+}
+
+*.contactPanel {
+    padding-bottom: 0 !important;
+}
+
+*.optionPanel {
+    padding-bottom: 0 !important;
+}
+
+#mobilemenuicon {
+    display: none;
+    font-size: 2.5em;
+    float: right;
+    margin: 10px;
+}
+
+
+.listcont {
+    height: 20px !important;
+    display: inline-block !important;
+}
+
+/* This increases the size of the file input text box */
+div.RadUpload .ruFakeInput {
+    width: 250px;
+    height: 21px;
+}
+
+*.ruFileInput {
+}
+
+div.RadUpload .ruBrowse {
+    background-position: 0 -46px !important;
+    width: 122px !important;
+}
+
+
+*.debug {
+    font-size: 1em;
+    color: #E0E0E0;
+    font-family: Verdana;
+}
+
+*.qsubj {
+    font-weight: bold;
+}
+
+
+*.undline {
+    text-decoration: underline;
+}
+
+
+
+
+.viewQnLink {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.optionsLink {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+
+
+.relatedQPanel {
+    display: inline !important;
+}
+
+    .relatedQPanel span {
+        margin-right: 4px !important;
+    }
+
+
+.presCtrlLeft {
+    display: inline !important;
+    float: left;
+}
+
+.presCtrlRight {
+    display: inline !important;
+    float: left;
+}
+
+.presCtrlTextArea .presCtrlLeft {
+    width: 98%;
+}
+
+.presCtrlTextArea .presCtrlRight {
+    width: 2%;
+}
+
+
+
+
+.presSymb {
+    margin-left: 4px;
+}
+
+.disallowedFileType {
+    /* used by file uploader to display error messages about selected files */
+    height: 24px;
+    line-height: 20px;
+    margin-left: 10px;
+    font-size: 1.1em;
+}
+
+
+/* Used for reqform div change client */
+
+#uidirfchcl .rtcltxt {
+    /* client change note division used in reft231 */
+    font-weight: bold;
+}
+
+
+
+/* Positions image used to indicated direction of email */
+/* Used in history display */
+
+.emailDirSymbol {
+}
+
+    .emailDirSymbol img {
+        margin-right: 0px !important;
+        vertical-align: middle !important;
+    }
+
+*.ptcontainer {
+    font-size: 1.05em;
+    font-family: 'Segoe UI';
+}
+
+*.prescontent {
+    margin-bottom: 15px;
+}
+
+.radconfirm {
+    background-image: none !important;
+}
+
+.radalert {
+    background-image: none !important;
+}
+
+
+*.fileDropAreaForm {
+    width: 380px;
+    margin-left: 10px;
+}
+
+*.fileDropAreaPresenter {
+    width: 380px;
+    margin-left: 10px;
+}
+
+*.fileDropAreaWin {
+    margin-left: 10px;
+}
+
+.qtypeimg {
+    margin-left: 5px;
+}
+
+.statusInfo .qtypeimg {
+    height: 13px !important;
+    width: 13px !important;
+}
+
+.affectedFields {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+/* Search criteria label area */
+*.srchCriteriaLabel {
+    width: 35%;
+    max-width: 150px;
+    margin-bottom: 5px;
+}
+
+/* Search criteria input area */
+*.srchCriteriaInput {
+    width: 65%;
+}
+
+/* Text input area */
+*.srchCriteriaParm_text {
+    width: 70%;
+}
+
+/* Ranked input area */
+*.srchCriteriaParm_ranked {
+    width: 30%;
+    min-width: 100px;
+}
+
+h2 {
+    margin: 0px !important;
+}
+
+.reportTotals .rtsflab {
+    padding-left: 20px;
+}
+
+.reportTotals .rtsftxt {
+    padding-left: 8px;
+}
+
+.userLocale {
+    font-size: 0.8em;
+    line-height: 1 !important;
+    display: block;
+}
+
+
+.rtemlreftlink .resLink A {
+    font-weight: inherit !important;
+    font-size: inherit !important;
+    color: inherit !important;
+    text-decoration: inherit !important;
+}
+
+    .rtemlreftlink .resLink A:hover {
+        font-style: inherit !important;
+        text-decoration: underline !important;
+        text-decoration-color: inherit !important;
+    }
+
+
+.rtemlevalink .resLink A {
+    font-weight: inherit !important;
+    font-size: inherit !important;
+    color: inherit !important;
+    text-decoration: none !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 3%;
+}
+
+    .rtemlevalink .resLink A:hover {
+        font-style: inherit !important;
+        text-decoration: underline !important;
+        text-decoration-color: inherit !important;
+    }
+
+.rtemlevalinktext .resLink A {
+    font-weight: inherit !important;
+    font-size: inherit !important;
+    color: inherit !important;
+    text-decoration: none !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+    .rtemlevalinktext .resLink A:hover {
+        font-style: inherit !important;
+        text-decoration: underline !important;
+        text-decoration-color: inherit !important;
+    }
+
+*.rtemlattachmentlink .resLink A {
+    font-weight: inherit !important;
+    font-size: inherit !important;
+    color: #C11C14 !important;
+    text-decoration: none !important;
+}
+
+/* Email preview link panel */
+/* Displayed in the Send/Don't send options */
+
+.emlPreview {
+    margin-top: 3px;
+}
+
+/* DeskStat batch input text box */
+.dsBatchInput{
+
+    width:60% !important;
+
+}
+.RadInputMultiline {
+    width: 100% !important;
+}
+
+.rttamld{
+  width: 100% !important;
+    min-height:60px !important;
+}
+
+.msgctrlpan{
+
+    margin-top:5px !important;
+}
+
+.timePerPanel{
+
+}
+
+.timePerPanel select{
+
+    margin-right:5px;
+}
+
+timePerPanel span{
+    margin-right:5px;
+}
+
+
+/*========================================================*/
+
+
+/* option list control vertical */
+
+.noplistv {
+    border: 1px dotted silver;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    max-width: 375px;
+/*    background-color: whitesmoke;
+*/}
+
+
+/* option list control horizontal */
+
+
+.noplisth .lyodiv {
+    border-bottom: 1px dotted silver;
+    border-top: 1px dotted silver;
+    /*background-color: whitesmoke;*/
+}
+/*
+.noplistv, .noplisth .lyodiv {
+    background-color: #f5f5f5;
+}*/
+
+    .noplisth .lyodivfirst {
+        border-left: 1px dotted silver;
+    }
+
+.noplisth .lyodivlast {
+    border-right: 1px dotted silver;
+}
+
+/* Option list control titles */
+
+.noplisttitlev {
+    margin-left: 28px;
+    max-width: 200px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.noplisttitleh {
+    font-weight: bold;
+    margin-right: 10px;
+    padding-top: 3px;
+    padding-left: 5px;
+}
+
+.noplistitem {
+    
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+
+.noplistlbl {
+    margin-left: 5px;
+    font-size: 13px !important;
+    margin-right: 8px;
+    display: inline-block;
+    padding-bottom: 1px;
+}
+
+
+
+
+.noplistitem input[type="radio"]:checked:disabled {
+    background-color: #717A84 !important;
+}
+
+.noplistdisb {
+    color: #717A84 !important;
+}
+
+.noplistitem radio:disabled {
+}
+
+.noplistitem img {
+    padding-bottom: 3px !important;
+    margin-left: -4px !important;
+    margin-right: 8px !important;
+}
+
+.noplistitem input[type=checkbox] {
+    margin-bottom: 0px !important;
+}
+
+.noplistitem input[type="checkbox"] {
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    border: 1px solid silver;
+    background-clip: content-box;
+    padding: 2px;
+}
+
+ /*   .noplistitem input[type="checkbox"]:checked {
+        background-color: #C11C14;
+    }*/
+
+.noplistitem input[type="radio"] {
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    border: 1px solid silver;
+    border-radius: 50%;
+    background-clip: content-box;
+    padding: 2px;
+    margin-bottom: -1px;
+}
+
+   /* .noplistitem input[type="radio"]:checked {
+        background-color: #C11C14 !important;
+    }*/
+
+    .noplistitem input[type="radio"]:disabled {
+        background-color: whitesmoke;
+    }
+
+   /* .noplistitem input[type="checkbox"]:checked, .noplistitem input[type="radio"]:checked, .switchctrls input[type="checkbox"]:checked, .resCont input[type="checkbox"]:checked {
+        background-color: #C11C14;
+    }*/
+
+
+.noplistextra {
+    margin-left: 28px;
+}
+
+
+
+
+#pgcipgstat, #pgciclstat {
+    height: 28px !important;
+    /* Making the closing status DDL about the same height as the conclusion radios*/
+
+}
+
+/* These need moved into reft530 local */
+#journal_time {
+    height: 26px !important;
+}
+
+.timerControl input{
+    font-size:1.15em !important;
+}
+
+/* This needs moved into main CSS */
+
+
+.switchpanel {
+    margin-top: 6px;
+    margin-left: -5px;
+    cursor: pointer;
+}
+
+
+    .switchpanel span {
+        font-size: 13px;
+        font-weight: bold;
+        margin-left: 6px;
+    }
+
+    .switchpanel input[type=checkbox] {
+        transform: scale(1.1);
+    }
+
+.switchsub {
+    margin-top: 3px;
+}
+
+.switchctrls {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 15px;
+    border-radius: 4px;
+    display: inline-block !important;
+}
+
+
+    .switchctrls input[type="checkbox"] {
+ 
+        appearance: none;
+        width: 14px;
+        height: 14px;
+        border: 1px solid silver;
+        background-clip: content-box;
+        padding: 2px;
+    }
+
+.switchctrls .rtsflab{
+
+   display:inline-block;
+  
+}
+
+.switchcbcont, .switchlabcont{
+
+    display:inline !important;
+    height:20px !important;
+}
+
+.switchcbcont{
+
+    margin-left:5px;
+   vertical-align:middle !important;
+
+}
+.switchlabcont span{
+
+    display:inline-block;
+   
+}
+
+.switchlabcont{
+
+    padding-bottom:-10px !important;
+}
+/* This needs moved into main css*/
+.resCont input[type="checkbox"] {
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    border: 1px solid silver;
+    background-clip: content-box;
+    padding: 2px;
+}
+
+  
+
+/*.resText {
+    border:1px dotted darkgrey !important;
+    height:22px;
+}*/
+
+/* Contact Information Panel table */
+.cipantab{
+    width:100%;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+/* This formats the list of field names displayed for a field set in reft920/reft930 */
+#pgcisltflds span:not(:first-child):before {
+    content: ",";
+    padding-right: 8px;
+}
+
+
+/* START plain table */
+
+table.plainTable {
+    width: 100%;
+    border: 1px solid #E0E0E0;
+}
+
+    table.plainTable th {
+        text-align: left;
+        border: 1px solid;
+        border-color: #E0E0E0; /*reftcss|table|plain table header border colour|zvIC3kW0itlxGhNo*/
+        background-color: #E0E0E0; /*reftcss|table|plain table header background colour|ejRCv2K0CI8Ztdnj*/
+        font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+        font-size: 0.9em;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        vertical-align: top;
+    }
+
+    table.plainTable td {
+        border-style: solid;
+        border-width: 1px;
+        border-color: #E0E0E0; /*reftcss|table|plain table cell border colour|Sn144NESp0Ioxnxt*/
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        vertical-align: top;
+    }
+
+        table.plainTable td td {
+            border-style: none;
+        }
+
+
+
+/* END Plain table */
+
+
+
+.pwctrl {
+    margin-left: 5px;
+}
